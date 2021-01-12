@@ -67,7 +67,7 @@ a {
     padding: 1.2rem;
     &:hover {
         color: $pri-bright-cyan;
-        transform: rotateX(30deg);
+        transform: rotateX(-30deg);
     }
 }
 

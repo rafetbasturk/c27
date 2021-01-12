@@ -77,8 +77,8 @@ a {
 
 a:hover {
   color: #2bb7da;
-  -webkit-transform: rotateX(30deg);
-          transform: rotateX(30deg);
+  -webkit-transform: rotateX(-30deg);
+          transform: rotateX(-30deg);
 }
 
 header {
@@ -295,6 +295,9 @@ footer button {
   header nav a:hover {
     color: #2d314d;
     border-bottom: 4px solid #2bb7da;
+  }
+  main {
+    background: none !important;
   }
   section {
     padding: 6.5rem 4rem 3.5rem;
